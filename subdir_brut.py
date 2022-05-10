@@ -30,5 +30,5 @@ def dirForce(url):
         else:
             print(f'{rd} [Not Found] => {newUrl} {rst}')
 
-userUrl = sys.argv[1]
+userUrl = sys.argv[1] #add the the domain name right after you call the script.
 dirForce(userUrl)
